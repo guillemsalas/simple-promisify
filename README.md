@@ -2,14 +2,14 @@
 Yet another promisify module. This node module offers a function to easily convert callback based async functions into promises.
 
 ## Installation
-Just add `simple-promisify` as dependency:
+Just add `ya-promisify` as dependency:
 ```bash
-npm install --save simple-promisify
+npm install --save ya-promisify
 ```
 ## Usage
 Usage is quite straighforward:
 ```js
-const promisify = require('simple-promisify'),
+const promisify = require('ya-promisify'),
       fs = require('fs'),
       //without specify execution context
       stat = promisify(fs.stat),
