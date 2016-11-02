@@ -1,10 +1,10 @@
 {
-  "name": "simple-promisify",
+  "name": "ya-promisify",
   "version": "1.0.0",
-  "description": "Convert callback function into promises",
+  "description": "Yet another promisify: Convert callback function into promises",
   "main": "src/index.js",
   "repository": {
-    "url": "git@github.com:guillemsalas/simple-promisify.git",
+    "url": "git@github.com:guillemsalas/ya-promisify.git",
     "type": "git"
   },
   "author": "Guillem Salas <guillemsalas@gmail.com>",
