@@ -1,0 +1,20 @@
+{
+  "name": "simple-promisify",
+  "version": "1.0.0",
+  "description": "Convert callback function into promises",
+  "main": "src/index.js",
+  "repository": {
+    "url": "git@github.com:guillemsalas/simple-promisify.git",
+    "type": "git"
+  },
+  "author": "Guillem Salas <guillemsalas@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  },
+  "scripts" : {
+    "test" : "mocha test/**/*.js",
+    "watch" : "mocha test/**/*.js --watch"
+  }
+}
